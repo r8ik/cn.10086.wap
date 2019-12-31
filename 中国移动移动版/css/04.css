@@ -41,30 +41,35 @@ header {
 }
 .one img {
   height: 100%;
+  width: 100%;
 }
 .two {
   height: calc(153rem / 16);
 }
 .two img {
   height: 100%;
+  width: 100%;
 }
 .three {
   height: calc(115rem / 16);
 }
 .three img {
   height: 100%;
+  width: 100%;
 }
 .four {
   height: calc(209rem / 16);
 }
 .four img {
   height: 100%;
+  width: 100%;
 }
 .five {
   height: calc(115rem / 16);
 }
 .five img {
   height: 100%;
+  width: 100%;
 }
 .know {
   height: calc(21rem / 16);
@@ -85,6 +90,7 @@ header {
 }
 .six img {
   height: 100%;
+  width: 100%;
 }
 /* 底部 footer */
 .footer {
