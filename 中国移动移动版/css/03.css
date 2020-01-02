@@ -27,6 +27,30 @@ header {
   text-align: center;
   color: #333333;
   border-bottom: 1px solid #dfdfdf;
+
+}
+.head-left{
+  float: left;
+
+  margin-left: calc(20rem / 16);
+
+}
+.head-left img{
+  height: calc(23rem / 16);
+  width: calc(17rem / 16);
+}
+.sl{
+  float: right;
+  margin-top: calc(17rem / 16);
+  margin-right: calc(10rem / 16);
+  /* display: inline-block; */
+  height: calc(21rem / 16);
+  width: calc(16rem / 16);
+  background-image: url(../image/03/icon-expand.png__b654404.png);
+  background-size: calc(15rem / 16) calc(3rem / 16);
+  background-position: 0px 1px;
+  background-repeat: no-repeat;
+  
 }
 /* 2 登录 login */
 .login {
@@ -53,6 +77,7 @@ header {
 }
 .carousel img {
   height: 100%;
+  width: 100%;
 }
 /*4 搜索 search  */
 .search {
@@ -162,7 +187,7 @@ header {
   color: #333333;
 }
 /* 选购 buy */
-.buy {
+/* .buy {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -172,7 +197,6 @@ header {
 }
 .buy a {
   float: left;
-  /* display: inline-block; */
   width: 50%;
   height: 100%;
   text-align: center;
@@ -190,4 +214,4 @@ header {
 .buy-goumai span {
   color: #eff7fd;
   line-height: calc(38rem / 16);
-}
+} */

@@ -39,11 +39,35 @@ header span {
 }
 .header-logo {
 }
-.header-more {
+.ss{
   float: right;
-  height: calc(11rem / 16);
-  margin-top: calc(16rem / 16);
-  margin-right: calc(12rem / 16);
+  margin-top: calc(13rem / 16);
+  margin-right: calc(10rem / 16);
+  /* display: inline-block; */
+  height: calc(20rem / 16);
+  width: calc(14rem / 16);
+  background-image: url(../image/02/icon-search2.png__b654404.png);
+  background-size: calc(13rem / 16) calc(12rem / 16);
+  background-position: 0px 1px;
+  background-repeat: no-repeat;
+  
+}
+.sl{
+  float: right;
+  margin-top: calc(17rem / 16);
+  margin-right: calc(10rem / 16);
+  /* display: inline-block; */
+  height: calc(21rem / 16);
+  width: calc(16rem / 16);
+  background-image: url(../image/02/icon-more.png__b654404.png);
+  background-size: calc(15rem / 16) calc(3rem / 16);
+  background-position: 0px 1px;
+  background-repeat: no-repeat;
+  
+}
+.sj{
+  height: calc(4rem / 16);
+  width: calc(8rem / 16);
 }
 /* 2 登录 login */
 .login {

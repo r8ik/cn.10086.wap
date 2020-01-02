@@ -1,0 +1,228 @@
+@media screen and (width: 320px) {
+  html {
+    font-size: calc(320px / 20);
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: calc(375px / 20);
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: calc(414px / 20);
+  }
+}
+/*1 头部  */
+header {
+  height: calc(44rem / 16);
+  /* width: 100%; */
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
+  box-sizing: border-box;
+}
+.header-center {
+  float: left;
+  width: 77%;
+  line-height: calc(44rem / 16);
+  font-size: calc(16rem / 16);
+  color: #666666;
+}
+.head-left{
+  float: left;
+  margin-left: calc(20rem / 16);
+  margin-top: calc(10rem / 16);
+}
+.head-left img{
+  height: calc(23rem / 16);
+  width: calc(17rem / 16);
+}
+.fz{
+  float: right;
+  margin-top: calc(12rem / 16);
+  margin-right: calc(10rem / 16);
+  /* display: inline-block; */
+  height: 100%;
+  width: calc(26rem / 16);
+  background-image: url(../image/05/home_btn.png);
+  background-size: calc(44rem / 16) calc(42rem / 16);
+  background-position: -10px -11px;
+  background-repeat: no-repeat;
+}
+/* 2 登录方式 way  */
+.way {
+  height: calc(44rem / 16);
+  margin-top: calc(10rem / 16);
+  margin-left: calc(20rem / 16);
+  margin-right: calc(20rem / 16);
+  border: 1px solid #0085d0;
+  box-sizing: border-box;
+  border-radius: calc(24rem / 16);
+}
+
+.way-duanxin {
+  float: left;
+  height: 100%;
+  width: 50%;
+  border-radius: calc(20rem / 16);
+  background-color: #0085d0;
+  text-align: center;
+  line-height: calc(42rem / 16);
+}
+.way-duanxin span {
+  font-size: calc(14rem / 16);
+  color: #ffffff;
+}
+.way-kefu {
+  float: left;
+  height: calc(42rem / 16);
+  width: 50%;
+  text-align: center;
+  line-height: calc(42rem / 16);
+}
+.way-kefu span {
+  font-size: calc(14rem / 16);
+  color: #66667f;
+}
+/* 3 号码 tel */
+.tel {
+  height: calc(46rem / 16);
+  border: 1px solid #dfdfdf;
+  margin-top: calc(20rem / 16);
+  margin-left: calc(20rem / 16);
+  margin-right: calc(20rem / 16);
+  line-height: calc(46rem / 16);
+}
+.tel-input {
+  margin-left: calc(30rem / 16);
+  border: none;
+  font-size: calc(14rem / 16);
+
+}
+/* 4 验证 yanzheng */
+.yanzheng {
+  float: flex;
+  height: calc(46rem / 16);
+  border: 1px solid #dfdfdf;
+  margin-top: calc(20rem / 16);
+  margin-left: calc(20rem / 16);
+  margin-right: calc(20rem / 16);
+  line-height: calc(46rem / 16);
+}
+.yanzheng-ma {
+  float: left;
+  width: 49%;
+}
+.yanzheng-huoqu {
+  float: right;
+  width: 140px;
+  text-align: center;
+  color: #666666;
+  border-left: 1px solid#dfdfdf;
+  font-size: calc(14rem / 16);
+  box-sizing: border-box;
+}
+.yanzheng-input {
+  border: none;
+  font-size: calc(14rem / 16);
+  margin-left: calc(30rem / 16);
+  line-height: calc(46rem / 16);
+}
+/*  5 记住账号 remember*/
+.remember{
+  height: calc(63rem / 16);
+  margin-left: calc(20rem / 16);
+  margin-right: calc(20rem / 16);
+  line-height: calc(63rem / 16);
+  position: relative;
+}
+.remember-box{
+position: absolute;
+left: 0;
+}
+.remember-choose{
+  /* display: inline-block; */
+  float: left;
+  height: calc(20rem / 16);
+  width: calc(20rem / 16);
+  border: 1px solid #dfdfdf;
+  border-radius: 50%;
+  margin-top: calc(20rem / 16);
+  font-size: calc(14rem / 16);
+
+}
+.remember-acc{
+  /* float: right; */
+  margin-left: calc(10rem / 16);
+  line-height: calc(63rem / 16);
+  font-size: calc(14rem / 16);
+  color: #666666;
+}
+.inter{
+  float: right;
+  font-size: calc(14rem / 16);
+  color: #666666;
+}
+/* 6 立即登录 login */
+.login{
+  height: calc(65rem / 16);
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  /* box-sizing: border-box; */
+  padding-top: calc(20rem / 16);
+  padding-left: calc(20rem / 16);
+  padding-right: calc(20rem / 16);
+}
+.login a{
+  display: inline-block;
+  height: calc(45rem / 16);
+  width: 100%;
+  border-radius: 8px;
+  background-color: #0085d0;
+  line-height: calc(45rem / 16);
+  text-align: center;
+  color: #ffffff;
+  font-size: calc(16rem / 16);
+}
+/* 7 帮助 help */
+.help{
+  height:calc(51rem / 16);
+  border-bottom: 1px solid #dfdfdf;
+  /* line-height: calc(45rem / 16); */
+  padding-top: calc(20rem / 16);
+  padding-left: calc(20rem / 16);
+  padding-right: calc(20rem / 16);
+  box-sizing: border-box;
+}
+.help a{
+  font-size: calc(14rem / 16);
+  color: #666666;
+}
+.help span{
+  margin: 0 3px;
+}
+.top{
+float: right;
+}
+/* 8 版本 banben */
+.banben{
+  height:calc(60rem / 16);
+  text-align: center;
+  line-height: calc(60rem / 16);
+}
+.banben a{
+  /* float: left; */
+  width: 42px;
+  font-size: calc(14rem / 16);
+  color: #666666;
+  margin: 0 calc(4rem / 16);
+}
+.banben a:first-child{
+  color: #0085d0;
+}
+/* 9 底部 footer */
+.footer{
+  text-align: center;
+  color: #b199a5;
+  font-size: calc(14rem / 16);
+}
