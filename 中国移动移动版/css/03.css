@@ -17,7 +17,7 @@ body {
   width: 100%;
   max-width: 640px;
   margin: 0 auto;
-  background-color: #f4f4f4;
+  background-color: #fcfcfc;
   /* overflow: hidden; */
 }
 /* 1 头部  */
@@ -32,7 +32,7 @@ header {
 .head-left{
   float: left;
 
-  margin-left: calc(20rem / 16);
+  margin-left: calc(10rem / 16);
 
 }
 .head-left img{
