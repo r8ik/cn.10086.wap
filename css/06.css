@@ -1,0 +1,30 @@
+@media screen and (width: 320px) {
+  html {
+    font-size: calc(320px / 20);
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: calc(375px / 20);
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: calc(414px / 20);
+  }
+}
+
+header {
+  height: calc(34rem / 16);
+  border-bottom: 1px solid #dfdfdf;
+}
+.head-left {
+  float: left;
+  width: calc(54rem / 16);
+  margin-top: calc(8rem / 16);
+  margin-left: calc(10rem / 16);
+}
+.head-left img {
+  height: calc(23rem / 16);
+  width: calc(17rem / 16);
+}
