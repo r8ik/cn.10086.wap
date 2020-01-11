@@ -47,7 +47,7 @@ header span {
   /* display: inline-block; */
   height: calc(20rem / 16);
   width: calc(14rem / 16);
-  background-image: url(../image/02/icon-search2.png__b654404.png);
+  background-image: url(../image/02/ss.png);
   background-size: calc(13rem / 16) calc(12rem / 16);
   background-position: 0px 1px;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ header span {
   /* display: inline-block; */
   height: calc(21rem / 16);
   width: calc(16rem / 16);
-  background-image: url(../image/02/icon-more.png__b654404.png);
+  background-image: url(../image/02/sl.png);
   background-size: calc(15rem / 16) calc(3rem / 16);
   background-position: 0px 1px;
   background-repeat: no-repeat;
@@ -119,6 +119,11 @@ header span {
   height: calc(85rem / 16);
   border-bottom: 1px solid #e7e7e7;
 }
+.ad a{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
 .ad img {
   height: 100%;
   width: 100%;
@@ -152,6 +157,11 @@ header span {
   border-bottom: 1px solid #e7e7e7;
   height: calc(73rem / 16);
   box-sizing: border-box;
+}
+.hot li a{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 .hot li:first-child {
   height: calc(146rem / 16);
@@ -189,12 +199,13 @@ header span {
   float: left;
   width: 50%;
   border-bottom: 1px solid #e7e7e7;
-
-}
-.set li:first-child {
   border-right: 1px solid #e7e7e7;
   box-sizing: border-box;
 }
+/* .set li:first-child {
+  border-right: 1px solid #e7e7e7;
+  box-sizing: border-box;
+} */
 .set img {
   float: right;
   height: calc(68rem / 16);
@@ -319,7 +330,8 @@ box-sizing: border-box;
 .yewu img {
   float: right;
   height: calc(38rem / 16);
-  margin-top: calc(12rem / 16);
+  margin-top: calc(14rem / 16);
+  margin-right: calc(4rem / 16);
 }
 .yewu li h2 {
   margin-top: calc(10rem / 16);
@@ -406,15 +418,17 @@ width: 100%;
   /* height: calc(72rem / 16); */
   border-bottom: 1px solid #e7e7e7;
   box-sizing: border-box;
-}
-.home li:first-child{
   border-right: 1px solid #e7e7e7;
 
 }
+/* .home li:first-child{
+  border-right: 1px solid #e7e7e7;
+
+} */
 .home li img {
   float: right;
   height: calc(68rem / 16);
-  /* margin-top: calc(10rem / 16); */
+  margin-right: calc(4rem / 16);
 }
 .home li h2 {
   margin-top: calc(10rem / 16);
@@ -523,6 +537,11 @@ width: 100%;
   float: left;
   width: 25%;
   text-align: center;
+}
+.nav li a{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 .nav li img {
   height: calc(21rem / 16);

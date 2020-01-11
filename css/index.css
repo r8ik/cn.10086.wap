@@ -46,7 +46,7 @@ header span {
   /* display: inline-block; */
   height: calc(20rem / 16);
   width: calc(14rem / 16);
-  background-image: url(../image/02/icon-search2.png__b654404.png);
+  background-image: url(../image/02/ss.png);
   background-size: calc(13rem / 16) calc(12rem / 16);
   background-position: 0px 1px;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ header span {
   /* display: inline-block; */
   height: calc(21rem / 16);
   width: calc(16rem / 16);
-  background-image: url(../image/02/icon-more.png__b654404.png);
+  background-image: url(../image/02/sl.png);
   background-size: calc(15rem / 16) calc(3rem / 16);
   background-position: 0px 1px;
   background-repeat: no-repeat;
@@ -142,6 +142,7 @@ header span {
   bottom: 0;
   right: 0;
   height: calc(51rem / 16);
+  margin-right: calc(4rem / 16);
 }
 .home li h2 {
   margin-top: calc(10rem / 16);
@@ -227,7 +228,7 @@ header span {
   float: right;
   height: calc(38rem / 16);
   margin-top: calc(12rem / 16);
-
+  margin-right: calc(4rem / 16);
 }
 .yewu li h2 {
   margin-top: calc(10rem / 16);
@@ -415,6 +416,11 @@ header span {
   float: left;
   width:25%;
   text-align: center;
+}
+.nav li a{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 .nav li img {
   height: calc(21rem / 16);
